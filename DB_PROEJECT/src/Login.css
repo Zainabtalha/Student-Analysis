@@ -1,0 +1,75 @@
+/* .loginBackground {
+    background: url('https://img.freepik.com/free-photo/book-library-with-open-textbook_1150-5924.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    max-width: 400px;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);  /* Added semi-transparent background for better visibility */
+    padding: 20px;
+    border-radius: 10px;  /* Rounded corners */
+}
+
+.btn-success {
+    background-color: #007bff;  /* Using Bootstrap's primary blue */
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out;  /* Smooth transition on hover */
+}
+
+.btn-success:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+    border-color: #0056b3;
+}
+
+.btn-outline-light {
+    color: #007bff;  /* Text color is blue to match the "Log In" button */
+    border-color: #007bff;  /* Border color matches the text */
+    background-color: transparent;  /* Initial background is transparent */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;  /* Smooth transition on hover */
+}
+
+.btn-outline-light:hover {
+    color: #fff;  /* White text on hover */
+    background-color: #007bff;  /* Blue background on hover */
+    border-color: #007bff;
+}
+
+.input-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.input-shadow:focus {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    outline: none; /* Removing default focus style */
+}
+
+.label-style {
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+.heading-style {
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #004d99; /* Slightly darker shade of blue for heading */
+}
+
+.card-footer-style {
+    background-color: transparent;
+    border-top: none;
+}

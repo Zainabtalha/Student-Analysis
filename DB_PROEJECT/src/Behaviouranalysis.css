@@ -1,0 +1,42 @@
+/* BehaviourAnalysis.css */
+
+.behaviour-analysis-container {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    max-width: 900px; /* Increase the maximum width of the container */
+    margin: 0 auto; /* Center align the container horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center align vertically */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.behaviour-analysis-heading {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(129, 27, 27, 0.3);
+    font-weight: bold;
+    color: #3498db; /* Appealing color for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.behaviour-analysis-item {
+    margin-bottom: 20px;
+    color: #ecf0f1; /* Lighter text color */
+}
+
+.behaviour-analysis-summary {
+    margin-top: 20px;
+}
+
+.behaviour-analysis-summary strong {
+    color: #3498db;
+}
+
+.behaviour-analysis-summary p {
+    margin-bottom: 10px;
+    color: #ecf0f1; /* Lighter text color */
+}

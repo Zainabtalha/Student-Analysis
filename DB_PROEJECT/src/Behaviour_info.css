@@ -1,0 +1,26 @@
+/* Behaviour_info.css */
+
+.behaviour-form-container {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50); /* Gradient background for the form container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.behaviour-form-container h2 {
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #3498db; /* Blue button background color */
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}

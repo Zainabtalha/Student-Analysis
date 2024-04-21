@@ -1,0 +1,49 @@
+/* DeleteCourse.css */
+
+body.delete-course-component {
+    background: linear-gradient(to right, #123a44, #1f618d);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body to take up the full viewport height */
+  }
+  
+  .delete-course-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px;
+    padding: 40px;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .delete-course-heading {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .delete-course-input {
+    margin-bottom: 20px;
+  }
+  
+  .delete-course-btn-danger,
+  .delete-course-btn-primary {
+    background: linear-gradient(to right, #e74c3c, #c0392b);
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Increase padding for larger buttons */
+    font-size: 18px; /* Increase font size for buttons */
+    border-radius: 5px;
+    margin-right: 15px; /* Add margin between buttons */
+  }
+  
+  .delete-course-btn-danger:hover,
+  .delete-course-btn-primary:hover {
+    background: linear-gradient(to right, #c0392b, #e74c3c);
+    cursor: pointer;
+  }
+  

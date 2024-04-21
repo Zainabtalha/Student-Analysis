@@ -1,0 +1,112 @@
+/* SemesterInfo.css */
+
+.semester-info-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #95a5a6); /* Dark Blue and Grey gradient */
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.semester-info-container:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.semester-info-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom right, #546eaa, transparent);
+    z-index: -1;
+}
+
+.semester-info-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ecdede;
+    transform: skew(-10deg);
+    transition: text-shadow 0.3s, transform 0.3s, color 0.3s;
+}
+
+.semester-info-container h1:hover {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    transform: skew(-12deg);
+    color: #ffd700; /* Change heading color on hover to gold/yellow */
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.option {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.option.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.option:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.option h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #193241;
+    font-style: italic; /* Make the text italic */
+    text-shadow: 4px 4px 4px rgba(221, 58, 58, 0.3); /* Add a shadow to the text */
+}
+
+
+.option p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.semester-info-container .btn-primary,
+.semester-info-container .btn-success {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.semester-info-container .btn-primary {
+    background-color: #2a709f;
+    color: #fff;
+}
+
+.semester-info-container .btn-success {
+    background-color: #38aa68;
+    color: #fff;
+}
+
+.semester-info-container .btn:hover {
+    background-color: #2c3e50;
+    transform: scale(1.1);
+}

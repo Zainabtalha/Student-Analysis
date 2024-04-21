@@ -1,0 +1,90 @@
+/* Home.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Use a common sans-serif font */
+  }
+  
+  .navbar {
+    background-color: #293241; /* Dark background color */
+    border-bottom: 2px solid #be7c90; /* Add a border at the bottom for emphasis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff; /* Text color for the brand */
+  }
+  
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #8acb64; /* Use an accent color for the toggler icon */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* Text color for the links */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow to the text */
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color:  #8acb64; /* Hover color for the links */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #4a87dd;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url('images/logo_image.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 50%; /* Add a circular border radius for a modern look */
+  }
+  
+  .logo h3 {
+    color: #8acb64;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize; /* Change to capitalize, none, lowercase, etc. */
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .logo:hover h3 {
+    color: #5392a1;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .landing-page {
+    height: 100vh;
+    background: url('background.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0c0c0c97;
+    text-shadow: 2px 2px 4px rgba(69, 66, 66, 0.3); /* Add shadow to the text */
+  }
+  
+  .landing-content {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow to the text */
+  }
+  

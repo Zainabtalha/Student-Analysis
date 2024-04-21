@@ -1,0 +1,129 @@
+/* General Styles */
+.student-info-container {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.student-info-container h2,
+.student-info-container h4 {
+  color: #000080; /* Dark blue color for headings */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Dark shadow effect */
+  font-weight: bold;
+}
+
+/* Submitted Information Card */
+.student-info-card.submitted {
+  background-color: #e6f7ff; /* Light blue background for submitted information */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.student-info-card-heading {
+  color: #000080; /* Dark blue color for headings */
+}
+
+.list-group-item {
+  background-color: #b3e0ff; /* Light blue color for list items */
+}
+
+.btn-delete,
+.btn-update,
+.student-info-button,
+.btn-back {
+  display: block; /* Display buttons as blocks */
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete {
+  background-color: #FF5733; /* Red color for delete button */
+  color: #fff;
+  border: none;
+}
+
+.btn-delete:hover {
+  background-color: #d9534f;
+}
+
+.btn-update {
+  background-color: #3498db; /* Blue color for update button */
+  color: #fff;
+  border: none;
+}
+
+.btn-update:hover {
+  background-color: #31708f;
+}
+
+.student-info-button {
+  background-color: #4CAF50; /* Green color for submit button */
+  color: #fff;
+  border: none;
+}
+
+.student-info-button:hover {
+  background-color: #45a049;
+}
+
+.btn-back {
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.btn-back:hover {
+  background-color: #2980b9;
+}
+
+/* Form Styles */
+.student-info-card form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control,
+.select-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.student-info-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.student-info-button:hover {
+  background-color: #45a049;
+}
+
+/* Background Image */
+body.student-info-page-background {
+  background-image: url('images/img1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  image-rendering: optimizeQuality;
+  transform: scale(1.01);
+}

@@ -1,0 +1,78 @@
+/* Grades_info.css */
+.grades-info-container {
+    background-image: url('images/std_info2.jpg'); /* Set the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color */
+    padding: 50px; /* Adjust padding based on your design preferences */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .grades-info-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .grades-info-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    color: #000; /* Set the text color to black or a color that contrasts well with your background */
+  }
+  
+  
+  .grades-info-form {
+    max-width: 400px; /* Adjust based on your design preferences */
+    margin: 0 auto;
+  }
+  
+  .grades-info-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .grades-info-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    color: #fff;
+  }
+  
+  .grades-info-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .grades-info-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .grades-info-link {
+    display: block;
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .grades-info-link:hover {
+    background-color: #218838;
+  }
+  
